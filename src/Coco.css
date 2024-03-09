@@ -1,0 +1,117 @@
+.App {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the body to the full viewport height */
+}
+
+.CocoList {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow-x: auto;
+    white-space: nowrap; /* Ensures content doesn't wrap to the next line */
+}
+
+.CocoList {
+    max-width: 100%;
+}
+
+.Coco {
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
+.Coco .color-button-container {
+    text-align: center;  
+}
+
+.Coco .color-button-container button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.red-button {
+    background-color: #ffb1b0;
+}
+
+.orange-button {
+    background-color: #ffdfbe;
+}
+
+.yellow-button {
+    background-color: #ffffbf;
+}
+
+.green-button {
+    background-color: #c7ffbd;
+}
+
+.blue-button {
+    background-color: #a9d1ff;
+}
+
+
+.Coco td.section {
+    text-transform: uppercase;
+    font-size: smaller;
+    text-align: left;
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-top: 20pt;
+}
+
+.Coco td.label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.Coco td.value {
+    text-align: right;
+}
+
+.Coco td.value input {
+    text-align: right;
+}
+
+.add-coco-button {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    padding: 4pt;
+    margin: 0;
+    font-family: inherit;
+    font-size: 48pt;
+    font-weight: bold;
+    color: lightgrey;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+}
+
+.add-coco-button:hover {
+    color: gray;
+}
+
+.editable-title {
+    font-size: 14pt;
+    margin-top: 10pt;
+    height: 18pt;
+}
+
+.editable-title h2 {
+    margin: 0;
+}
+
+.editable-title input {
+    font-size: 14pt;
+}

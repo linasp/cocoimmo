@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cocoimmo/static/css/main.d68a15c9.css",
+    "main.js": "/cocoimmo/static/js/main.95d2ced3.js",
+    "static/js/592.e9d00297.chunk.js": "/cocoimmo/static/js/592.e9d00297.chunk.js",
+    "index.html": "/cocoimmo/index.html",
+    "main.d68a15c9.css.map": "/cocoimmo/static/css/main.d68a15c9.css.map",
+    "main.95d2ced3.js.map": "/cocoimmo/static/js/main.95d2ced3.js.map",
+    "592.e9d00297.chunk.js.map": "/cocoimmo/static/js/592.e9d00297.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d68a15c9.css",
+    "static/js/main.95d2ced3.js"
+  ]
+}
